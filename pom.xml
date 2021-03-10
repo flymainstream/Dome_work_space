@@ -10,6 +10,7 @@
 
 
     <dependencies>
+<!--    Spring Data redis library begin .................    -->
         <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-redis -->
         <dependency>
             <groupId>org.springframework.data</groupId>
@@ -22,11 +23,10 @@
             <artifactId>jedis</artifactId>
             <version>3.5.1</version>
         </dependency>
+<!--    Spring Data redis library end .................    -->
 
     </dependencies>
-<!--
-mvn install:install-file -Dfile=C:\Users\liujintao\Desktop\temp\spring-data-redis-2.4.5.jar -DgroupId=org.springframework.data -DartifactId=spring-data-redis -Dversion=2.4.5 -Dpackaging=jar
--->
+
 </project>
 
 
