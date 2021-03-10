@@ -27,8 +27,9 @@ public class RedisDome {
     public static void main(String[] args) {
 
         RedisDome redisDome = new RedisDome();
-
-//        CreateData createData = new CreateData(redisDome);
+//      Create Data
+        CreateData createData = new CreateData(redisDome);
+//        query Data
         redisDome.query(redisDome);
     }
 
